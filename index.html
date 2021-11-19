@@ -5,22 +5,185 @@
     <title>Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports &amp; Videos</title>
 </head>
 <body>
-<img src="https://s.yimg.com/rz/p/yahoo_homepage_en-US_s_f_p_bestfit_homepage.png" alt="yahoo.com">
+<!--style="width: 32px; color: green;"-->
+<!-- [C]ascading [S]tyle [S]heets -->
 
-<input type="text" placeholder="Enter search here..">
+<style>
 
-<a href="#">Sign In</a>
+    svg {
+        width: 32px;
+        height: 32px;
+        color: yellowgreen;
+    }
 
-<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" style="width: 32px; color: green;" fill="none"
-     viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
-</svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" style="width: 32px; color: blue;" fill="none"
-     viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"/>
-</svg>
+    input {
+        width: 350px;
+        height: 30px;
+        padding: 1px 10px;
+        border: 1px solid #188fff;
+        border-radius: 4px;
+        /*display: block ;*/
+        /*padding: 10px;*/
+    }
+
+    a {
+        text-decoration: none;
+        border: 1px solid #6100D2;
+        border-radius: 10px;
+        padding: 2px 5px;
+    }
+
+    #sub-section {
+        background: #666;
+        padding: 35px;
+    }
+
+    #sub-section input {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /*0F68FE*/
+    /*rgb(15,104,254)*/
+    /*div {*/
+    /*    !*background-color: #0F68FE;*!*/
+    /*    color: #fff;*/
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 30px;*/
+    /*    padding-left: 10px;*/
+    /*    padding-right: 15px;*/
+    /*    border-bottom: 10px solid #000;*/
+    /*    border-top: 10px solid #000;*/
+    /*    margin-top: 35px;*/
+    /*}*/
+
+    img {
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+
+    /* ID */
+    #second-search {
+        background: #ccc;
+    }
+
+    /* class */
+    .base-input {
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #000000;
+        border-radius: 0;
+    }
+
+    #sub-nav {
+        background: #188fff;
+        padding: 10px;
+    }
+
+    #sub-nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #sub-nav ul li {
+        list-style: none;
+    }
+
+    #sub-hero {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #sub-hero img {
+        width: 250px;
+        margin: 7px;
+    }
+
+    #top-nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+</style>
+
+<div id="top-nav">
+    <img src="https://s.yimg.com/rz/p/yahoo_homepage_en-US_s_f_p_bestfit_homepage.png" alt="yahoo.com">
+
+
+    <input type="text" placeholder="Start searching now....">
+
+    <div>
+        <a href="#">Sign In</a>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/>
+        </svg>
+        <!--style="width: 32px; color: blue;"-->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 make-round" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"/>
+        </svg>
+    </div>
+
+</div>
+
+<div id="sub-nav"> <!-- #sub-nav -->
+    <ul> <!-- ul -->
+        <li>Mail</li> <!-- li -->
+        <li>News</li>
+        <li>Finance</li>
+        <li>Yahoo Plus</li>
+        <li>Tech Tips</li>
+        <li>Sports</li>
+        <li>Life</li>
+        <li>COVID-19</li>
+        <li>Shopping</li>
+        <li>More...</li>
+    </ul>
+</div>
+
+<!-- display: flex -->
+<div id="sub-hero">
+
+    <div>
+        <img
+                src="https://s.yimg.com/uu/api/res/1.2/NKM874a0c2DpOiC82drxlQ--~B/Zmk9c3RyaW07aD0xODA7cT04MDt3PTM1NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/1f5acaa0-47d6-11ec-9f16-f4c9674238a1.cf.webp"
+                alt="sime image">
+        <p>Patriots complete feat not seen since 1988</p>
+    </div>
+
+    <div>
+        <img
+                src="https://s.yimg.com/uu/api/res/1.2/ZIhCkmtMj5qRLeJydb2HxA--~B/Zmk9c3RyaW07aD0xODA7cT04MDt3PTM1NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/fe3926c0-4873-11ec-abaf-0008cd9163fb.cf.webp"
+                alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+
+    <div>
+        <img
+                src="https://s.yimg.com/uu/api/res/1.2/NKM874a0c2DpOiC82drxlQ--~B/Zmk9c3RyaW07aD0xODA7cT04MDt3PTM1NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/1f5acaa0-47d6-11ec-9f16-f4c9674238a1.cf.webp"
+                alt="sime image">
+        <p>Patriots complete feat not seen since 1988</p>
+    </div>
+
+    <div>
+        <img src="https://s.yimg.com/uu/api/res/1.2/WMtumuUIILb_dZvnYvqedQ--~B/Zmk9c3RyaW07aD0xODA7cT04MDt3PTM1NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/5615cf00-480c-11ec-9f93-9b89fdd17067.cf.webp"
+             alt="">
+        <p>Patriots completeloed km eimi i 'oien oied</p>
+    </div>
+
+    <div>
+        <img
+                src="https://s.yimg.com/uu/api/res/1.2/ZIhCkmtMj5qRLeJydb2HxA--~B/Zmk9c3RyaW07aD0xODA7cT04MDt3PTM1NjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-11/fe3926c0-4873-11ec-abaf-0008cd9163fb.cf.webp"
+                alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+
+</div>
+
 </body>
 </html>
